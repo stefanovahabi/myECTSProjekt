@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+		<link rel="stylesheet" href="css/style_Startseite.css" type="text/css">
+		<link rel="stylesheet" href="css/style_After_Login.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href="https://code.jquery.com/ui/1.10.3/themes/redmond/jquery-ui.css" rel="stylesheet" media="screen">
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/fullcalendar.css" rel="stylesheet" media="screen">
+		<!-- styles -->
+		<link href="css/styles.css" rel="stylesheet">
+
+		<link href="css/calendar.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/stylesGENERAL.css" type="text/css">
+
+
+
+		<title>myECTS - You are logged in</title>
+	</head>
+	<body>
+	
+	<header>
+	
+	<div class="row">
+	
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<nav class="navbar navbar-inverse navbar-fixed-top" id="head">
+					  <div class="container-fluid">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					     <!-- <a class="navbar-brand" href="#">Brand</a>-->
+					    </div>
+					
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li class="active page-scroll"><a href="myECTS_Startseite.html">Home <span class="sr-only">(current)</span></a></li>
+					        <li class="page-scroll" id="navibar"><a href="about.html">about</a></li>
+					        <li class="page-scroll"><a href="howtouse.html">howtouse</a></li>
+					        <li class="page-scroll"><a href="support.html">support</a></li>
+					        <li class="page-scroll"><a href="register.html">register</a></li>
+					   		<li class="page-scroll"><a href="vergessen.html">forgot password</a></li>
+					        
+					        
+					      </ul>
+					      
+					      
+					    </div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->		
+				</nav>
+	</div>
+	
+	</div>		
+	</header>
+		<!--<nav>
+			<p><a href="../HTML/Veranstaltungen.html">Veranstaltungsplan</a></p>
+			<p><a href="../HTML/Statistik.html">Statistik</a></p>
+			<p><a href="../HTML/Stoppuhr.html">Stoppuhr</a></p>
+		</nav>
+		
+		<article>Aktuelles Datum<br>- Mitteilungen HIER -</article>
+		
+			<form action="../HTML/myECTS_Startseite.html">
+				<input type="submit" value="Log Out!" id="logout">
+			</form>-->
+			
+			
+			<div class="row" id="bilderzeile">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 center-block">
+						<a href="Veranstaltungen.html"><img src="img/plan.png" alt="Browser kacke" class="img-responsive obereBilder"></a>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<a href="Statistik.html"><img src="img/statistik.png" alt="Browser kacke" class="img-responsive obereBilder"></a>
+
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						
+						<a href="Stoppuhr.html"><img src="img/stoppuhr2.png" alt="Browser kacke" class="img-responsive obereBilder"></a>
+					</div>
+			</div>
+
+		<div class="row" id="startseite">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div>
+					<h3 id="willkommen">Willkommen auf der Startseite!</h3>
+
+				</div>
+			</div>
+		</div>
+
+	<div class="page-content" id="kalend">
+		<div class="row">
+
+			<div class="col-md-10">
+
+				<div class="content-box-large">
+					<div class="panel-body">
+						<div class="row">
+
+							<div class="col-md-10">
+								<div id='calendar'></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	
+		<footer class="navbar navbar-inverse navbar-fixed-bottom col-xs-12 col-sm-12 col-md-12 col-lg-12 container-fluid">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+						<nav>
+							<div class="container">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<!-- <a class="navbar-brand" href="#">Brand</a>-->
+								</div>
+
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+									<ul class="nav navbar-nav">
+										<li class="page-scroll" id="navibar1"><a href="impressum.html">Impressum</a></li>
+										<li class="page-scroll"><a href="Datenschutz.html">Datenschutz</a></li>
+
+
+
+									</ul>
+
+
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.container-fluid -->
+						</nav>
+				</div>
+
+			</div>
+		</footer>
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- jQuery UI -->
+	<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/fullcalendar.js"></script>
+	<script src="js/gcal.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/calendar.js"></script>
+	</body>
+</html>
