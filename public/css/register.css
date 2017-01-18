@@ -1,0 +1,100 @@
+
+#register{
+    position:relative;
+    top:200px;
+    left:25%;
+		padding-bottom: 100px;
+
+}
+.zentral{
+    text-align:center;
+}
+
+
+
+#vorname{
+    position:relative;
+    width:60%;
+    height:50px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+
+}
+#name{
+    position:relative;
+    width:60%;
+    height:50px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+
+}
+#email{
+    position:relative;
+    width:60%;
+    height:50px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+
+}
+#username{
+    position:relative;
+    width:60%;
+    height:50px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+
+}
+#password{
+    position:relative;
+    width:60%;
+    height:50px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+}
+
+#ticket{
+    position:relative;
+    width: 33%;
+    height:30px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    left:-10%;
+    color:#819FF7;
+
+}
+
+#registrieren{
+    position:absolute;
+    top:10%;
+    left:20%;
+    font-size:3em;
+}
+
+#text {
+	position:relative;
+    width:60%;
+    height:150px;
+    left:-10%;
+    margin-bottom:10px;
+    color:#819FF7;
+    background:#F5F5F5;
+}
+
+#gestossen {
+	position:relative;
+	font-size:10px;
+    left:-10%;
+    margin-bottom:0px;
+    color:#819FF7;
+}
+

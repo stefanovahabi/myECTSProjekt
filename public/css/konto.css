@@ -1,0 +1,84 @@
+*{
+    font-family:Verdana;
+}
+
+
+#container{
+    position:relative;
+    top:200px;
+}
+#contHochschule2{
+    position:relative;
+    top:20%;
+    padding-top:10%;
+    padding-left:20px;
+}
+#ubectskonto{
+    position:relative;
+    font-size:4vmax;
+    top:100px;
+}
+
+#buchen{
+    position:relative;
+    top:150px;
+    width:100%;
+    padding-bottom:60px;
+}
+
+
+#buchen > div{
+}
+
+#contUmBuchen{
+    position:relative;
+    padding-bottom:10%;
+    text-align:center;
+    width: 25%;
+    margin:0 auto;
+    width:250px;
+
+
+}
+
+
+
+#zeitbuchen{
+    height:40px;
+    float:left;
+    width:250px;
+    margin-bottom:2px;
+
+}
+
+#ergebnis{
+    position:relative;
+    bottom:20px;
+}
+
+#chart{
+    position:relative;
+    top:120px;
+}
+#selection{
+    position:relative;
+    float:left;
+    width:250px;
+
+
+    margin-bottom:2px;
+
+}
+#zeitbuchenbutton{
+    position:relative;
+
+    margin-bottom:20px;
+    float:left;
+
+}
+
+#ubkonto{
+    text-align:center;
+}
+
+

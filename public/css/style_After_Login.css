@@ -1,0 +1,26 @@
+*{
+    font-family:Verdana;
+}
+
+#logout {position:relative; left:400px;}
+
+#startseite	{
+    position:relative;
+    top:120px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+#willkommen{
+    font-size: 2em;
+}
+
+#kal{
+    text-align:center;
+    width: 100%;
+    float: none;
+    padding-bottom:60px;
+}
+table{
+    margin: 0px auto;
+}

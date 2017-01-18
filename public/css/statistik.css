@@ -1,0 +1,45 @@
+*{
+    font-family:Verdana;
+}
+
+
+#contumTabelle{
+    position:relative;
+
+    width:75%;
+    height:75%;
+    margin-right:10%;
+    left:10%;
+
+}
+
+#tabellereihe{
+    position:relative;
+    top:200px;
+    padding-bottom:100px;
+}
+
+
+#ustatistik{
+    position:relative;
+    font-size:4vmax;
+    top:50px;
+}
+#Statistik{
+    text-align:center;
+}
+
+
+#ectsButton{
+    position:relative;
+    top:50px;
+    margin-top:50px;
+    margin-left:1px;
+    padding-bottom: 100px;
+    width:auto;
+    height:auto;
+}
+table{
+    width:90%;
+
+}

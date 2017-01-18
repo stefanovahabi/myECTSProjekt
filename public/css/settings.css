@@ -1,0 +1,24 @@
+*{
+    font-family:Verdana;
+}
+
+
+#alles{
+    position:relative;
+    top:30px;
+}
+#hs1,#hs2,#hs3, #activate{
+    height:60px;
+    width:220px;
+}
+h1{
+    margin-top:30px;
+    margin-bottom:70px;
+
+}
+#selection1{
+    width:300px;
+}
+#selectionAb{
+    margin-bottom:20px;
+}
